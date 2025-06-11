@@ -1204,10 +1204,7 @@ torch.onnx.export(model, dummy_inputs, "model.onnx", ..., dynamic_axes=dynamic_a
 </ul>
 </li>
 </ul>
-<div style="text-align: center; margin: 1.5em 0;">
 
-<p style="font-size: 0.9em; color: #777;">图：Netron 可视化 ONNX 模型示例 (图片来源: Netron GitHub)</p>
-</div>
 <h3>使用 ONNX Runtime 进行推理验证</h3>
 <p>这是验证导出模型数值准确性的核心步骤。目标是确保 ONNX 模型在给定相同输入时，其输出与原始 PyTorch 模型尽可能一致。</p>
 <ol>
